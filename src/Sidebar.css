@@ -1,0 +1,30 @@
+.sidebar {
+   border-right: 1px solid var(--twitter-background) !important; 
+   flex: 0.275;
+   min-width: 250px;
+   padding-top: 20px;
+   padding-left: 20px;
+}
+
+.sidebar > img {
+   width: 40px;
+   height: auto;
+   margin-left: 15px;
+   margin-bottom: 20px;
+}
+
+.sidebar_babble {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    width: 235px !important;
+    margin-top: 10px !important;
+}
+
+.sidebar_babble:hover {
+    background-color: #099cf8 !important;
+}

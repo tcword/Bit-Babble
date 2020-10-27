@@ -1,0 +1,37 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: var(--twitter-background);
+}
+
+.login > div > img {
+  object-fit: contain;
+  height: 385px;
+}
+
+.login > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > h1 {
+    font-family: 'Baloo Bhai';
+    font-size: 75px;
+    margin-top: -75px;
+}
+
+.login > button {
+  width: 300px;
+  background-color:#199ff1;
+  color: white;
+  font-weight: 800;
+  transition: 0.3s;
+  margin-bottom: 60px;
+}
+
+.login > button:hover {
+  background-color: var(--twitter-background);
+  border: 1px solid #199ff1;
+  color: #199ff1;
+}
